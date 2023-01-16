@@ -8,7 +8,7 @@ It's supposed to be for inspiration, rather than a step-by-step guide. You won't
 
 If you know of a better way to do something, or want to offer other improvements, please send me a message [on Mastodon @carrot@bunny.cloud](https://bunny.cloud/@carrot) before opening a PR.
 
-For interest, it's actually a redacted copy of the `cluster` folder, from a repository I use to manage the infrastructure for [`bunny.cloud`](bunny.cloud). Not included are the terraform and ansible definitions for all the underlying infrastructure.
+For interest, it's actually a redacted copy of the `cluster` folder, from a repository I use to manage the infrastructure for [`bunny.cloud`](https://bunny.cloud). Not included are the terraform and ansible definitions for all the underlying infrastructure.
 
 ![Screenshot of Nomad running Mastodon](nomad_screenshot.png)
 
