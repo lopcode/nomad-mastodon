@@ -2,7 +2,7 @@
 
 This repository is designed to be read with my blog post: TODO, and you should be familiar with the first-party [setup guide](https://docs.joinmastodon.org/admin/prerequisites/) too.
 
-It includes [Nomad](https://www.nomadproject.io/) task definitions that I use to run my own [Mastodon](https://joinmastodon.org/) instance, as well as a couple of helpful scripts.
+It includes [Nomad](https://www.nomadproject.io/) task definitions that I use to run my own [Mastodon](https://joinmastodon.org/) instance, as well as a couple of helpful scripts. They're tuned to run on a single `t4g.medium` server on AWS.
 
 It's supposed to be for inspiration, rather than a step-by-step guide. You won't be able to run it out of the box using this repository, but I hope it's useful as a reference to get you started.
 
