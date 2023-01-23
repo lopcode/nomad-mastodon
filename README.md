@@ -1,6 +1,6 @@
 # Running Mastodon with Nomad
 
-This repository is designed to be read with my blog post: TODO, and you should be familiar with the first-party [setup guide](https://docs.joinmastodon.org/admin/prerequisites/) too.
+This repository is designed to be read with [my blog post](https://www.carrot.blog/posts/2023/01/self-hosting-mastodon-aws-nomad/), and you should be familiar with the first-party [setup guide](https://docs.joinmastodon.org/admin/prerequisites/) too.
 
 It includes [Nomad](https://www.nomadproject.io/) task definitions that I use to run my own [Mastodon](https://joinmastodon.org/) instance, as well as a couple of helpful scripts. They're tuned to run on a single `t4g.medium` server on AWS.
 
