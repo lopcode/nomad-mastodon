@@ -164,7 +164,7 @@ job "mastodon-cleanup" {
         args = [
           "bash",
           "-c",
-          "tootctl media remove --days ${var.media_retention_days} && tootctl preview_cards remove --days ${var.media_retention_days}"
+          "tootctl media remove --days ${var.media_retention_days} && tootctl media remove --days ${var.media_retention_days} --prune-profiles && tootctl preview_cards remove --days ${var.media_retention_days}"
         ]
       }
 
